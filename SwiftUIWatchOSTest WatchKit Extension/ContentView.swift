@@ -5,12 +5,11 @@ struct ContentView: View {
     @ObservedObject var settings = Settings.shared
 
     init() {
-        settings.prepare()
+        try! settings.prepare()
     }
 
     var body: some View {
         Button("Play Sound") {
-            SoundFontHelper.sharedInstance().playSound()
             settings.play()
         }
     }

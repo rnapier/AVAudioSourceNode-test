@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F2F136629646A2A001F6BDF /* SoundFontHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F136529646A2A001F6BDF /* SoundFontHelper.m */; };
 		1F2F136A296471F2001F6BDF /* GMGSx.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 1F2F1369296470D0001F6BDF /* GMGSx.sf2 */; };
 		1FB331D0296860A60011BEF0 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB331CF296860A60011BEF0 /* Settings.swift */; };
 		1FB331D2296863A90011BEF0 /* licenses.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FB331D1296863A90011BEF0 /* licenses.txt */; };
@@ -20,6 +19,7 @@
 		1FE9E329257D5C0A007FE179 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE9E328257D5C0A007FE179 /* ExtensionDelegate.swift */; };
 		1FE9E32D257D5C0A007FE179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE9E32C257D5C0A007FE179 /* Assets.xcassets */; };
 		1FE9E330257D5C0A007FE179 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE9E32F257D5C0A007FE179 /* Preview Assets.xcassets */; };
+		715893632969CB32001F2BA9 /* tsf.c in Sources */ = {isa = PBXBuildFile; fileRef = 715893602969CAC1001F2BA9 /* tsf.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +66,6 @@
 
 /* Begin PBXFileReference section */
 		1F2F1364296469EA001F6BDF /* tsf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tsf.h; sourceTree = "<group>"; };
-		1F2F136529646A2A001F6BDF /* SoundFontHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundFontHelper.m; sourceTree = "<group>"; };
-		1F2F136729646F12001F6BDF /* SoundFontHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundFontHelper.h; sourceTree = "<group>"; };
 		1F2F136829646F7D001F6BDF /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		1F2F1369296470D0001F6BDF /* GMGSx.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GMGSx.sf2; sourceTree = "<group>"; };
 		1FB331CF296860A60011BEF0 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -84,6 +82,7 @@
 		1FE9E32C257D5C0A007FE179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE9E32F257D5C0A007FE179 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FE9E331257D5C0A007FE179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715893602969CAC1001F2BA9 /* tsf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tsf.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +130,7 @@
 			children = (
 				1FE9E32C257D5C0A007FE179 /* Assets.xcassets */,
 				1F2F136829646F7D001F6BDF /* BridgingHeader.h */,
+				715893602969CAC1001F2BA9 /* tsf.c */,
 				1FE9E326257D5C0A007FE179 /* ContentView.swift */,
 				1FE9E328257D5C0A007FE179 /* ExtensionDelegate.swift */,
 				1F2F1369296470D0001F6BDF /* GMGSx.sf2 */,
@@ -139,8 +139,6 @@
 				1FB331D1296863A90011BEF0 /* licenses.txt */,
 				1FE9E32E257D5C0A007FE179 /* Preview Content */,
 				1FB331CF296860A60011BEF0 /* Settings.swift */,
-				1F2F136729646F12001F6BDF /* SoundFontHelper.h */,
-				1F2F136529646A2A001F6BDF /* SoundFontHelper.m */,
 				1F2F1364296469EA001F6BDF /* tsf.h */,
 			);
 			path = "SwiftUIWatchOSTest WatchKit Extension";
@@ -284,8 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FE9E327257D5C0A007FE179 /* ContentView.swift in Sources */,
-				1F2F136629646A2A001F6BDF /* SoundFontHelper.m in Sources */,
 				1FE9E325257D5C0A007FE179 /* HostingController.swift in Sources */,
+				715893632969CB32001F2BA9 /* tsf.c in Sources */,
 				1FE9E329257D5C0A007FE179 /* ExtensionDelegate.swift in Sources */,
 				1FB331D0296860A60011BEF0 /* Settings.swift in Sources */,
 			);
